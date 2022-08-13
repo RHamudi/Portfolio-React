@@ -1,4 +1,5 @@
 import {Container,Bold, Button} from './MainStyled'
+import {FiArrowRight} from 'react-icons/fi'
 
 function Main(){
     return (
@@ -10,9 +11,8 @@ function Main(){
                 <p>Hello, I`m a</p>
                 <Bold>Web developer</Bold>
                 <p>Ramon Ramos</p>
-                <Button>Hire me</Button>
-                <Button>Portifolio</Button>
-                <div>Whatssapp</div>
+                <Button>Hire me <FiArrowRight /></Button>
+                <Button>Portifolio <FiArrowRight /></Button>
             </div>
         </Container>
     )
