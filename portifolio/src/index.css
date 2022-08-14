@@ -2,13 +2,11 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    overflow-x: hidden;
   }
   
   html, body, #root, .App {
     position: relative;
-    min-height: 100vh;
-    max-width: 100vw;
-    width: 100vw;
   }
 
   @keyframes move {
