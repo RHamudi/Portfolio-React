@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
 * {
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Secular One', sans-serif;
   }
   
   html, body, #root, .App {
@@ -9,7 +12,10 @@
     min-height: 100vh;
     max-width: 100vw;
     width: 100vw;
+    overflow-x: hidden;
   }
+
+  
 
   @keyframes move {
     100% {
