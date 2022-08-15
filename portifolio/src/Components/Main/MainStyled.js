@@ -1,11 +1,14 @@
 import styled from 'styled-components'
 
+export const Container = styled.div`
+    padding-top: 100px;
+`;
 
-export const Container = styled.section`
-    height: 90vh;
+export const MainC = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 1rem;
 
     div {
         padding: 5px;
@@ -35,7 +38,7 @@ export const Button = styled.button`
     margin-right: 10px;
     border: none;
     transition: 0.5s;
-    margin-top: 4rem;
+    margin-top: 1rem;
 
     &:hover {
         background: #7996FC;

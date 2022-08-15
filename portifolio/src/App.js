@@ -1,5 +1,4 @@
 import Background from "./Background";
-import About from "./Components/About/About";
 import Header from "./Components/Header/Header";
 import Main from "./Components/Main/Main";
 
@@ -9,7 +8,6 @@ function App() {
       <Background />
       <Header />
       <Main />
-      <About />
     </>
   );
 }
