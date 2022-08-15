@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
 * {
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Secular One', sans-serif;
   }
   
   html, body, #root, .App {

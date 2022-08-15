@@ -8,32 +8,32 @@ function Portifolio() {
       <Container>
         <Cards
           title="Rede social Dogs"
-          src="https://via.placeholder.com/150"
+          src="https://via.placeholder.com/200"
           alt="teste"
         />
         <Cards
           title="Rede social Dogs"
-          src="https://via.placeholder.com/150"
+          src="https://via.placeholder.com/200"
           alt="teste"
         />
         <Cards
           title="Rede social Dogs"
-          src="https://via.placeholder.com/150"
+          src="https://via.placeholder.com/200"
           alt="teste"
         />
         <Cards
           title="Rede social Dogs"
-          src="https://via.placeholder.com/150"
+          src="https://via.placeholder.com/200"
           alt="teste"
         />
         <Cards
           title="Rede social Dogs"
-          src="https://via.placeholder.com/150"
+          src="https://via.placeholder.com/200"
           alt="teste"
         />
         <Cards
           title="Rede social Dogs"
-          src="https://via.placeholder.com/150"
+          src="https://via.placeholder.com/200"
           alt="teste"
         />
       </Container>

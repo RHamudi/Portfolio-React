@@ -1,6 +1,7 @@
 import {Container,MainC,Bold, Button} from './MainStyled'
 import {FiArrowRight} from 'react-icons/fi'
 import About from '../About/About'
+import { Link } from 'react-router-dom'
 
 function Main(){
     return (
@@ -14,8 +15,7 @@ function Main(){
                 <p>Hello, I`m a</p>
                 <Bold>Web developer</Bold>
                 <p>Ramon Ramos</p>
-                <Button>Hire me <FiArrowRight /></Button>
-                <Button>Portifolio <FiArrowRight /></Button>
+                <Link to="/portifolio"><Button>Portifolio <FiArrowRight /></Button></Link>
             </div>
         </MainC>
         <About />

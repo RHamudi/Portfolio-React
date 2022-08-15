@@ -10,9 +10,9 @@ export const H1 = styled.h1`
 export const Container = styled.section`
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     padding: 2rem;
     max-width: 1200px;
     margin: 0 auto;
-    row-gap: 20px;
+    gap: 20px;
 `;
