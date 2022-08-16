@@ -11,7 +11,7 @@ export const Section = styled.section`
         background: #414141;
         padding: 20px;
         border-radius: 8px;
-        box-shadow: 0px 0px 50px 2px rgba(0,0,0,0.7);
+        box-shadow: 0px 0px 10px -3px #fff;
         h1 {
             margin-top: 0.4rem;
             margin-bottom: 0.5rem;
