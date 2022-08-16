@@ -9,8 +9,8 @@ export const Navbar = styled.nav`
   ul {
     display: flex;
     list-style: none;
-    gap: 20px;
-
+    gap: 1rem;
+    padding-inline-start: 0;
     a {
         color: white;
     }

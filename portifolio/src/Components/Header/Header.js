@@ -1,6 +1,5 @@
 import {Navbar} from './HeaderStyled'
 import {Link } from 'react-router-dom'
-import Footer from '../Footer/Footer'
 
 function Header() {
     return (
@@ -8,7 +7,7 @@ function Header() {
             <ul>
                 <li><Link to="/">Sobre</Link></li>
                 <li><Link to="/portifolio">Portifolio</Link></li>
-                <li><Link to={<Footer/>}>Contatos</Link></li>
+                <li><Link to={"/contatos"}>Contatos</Link></li>
             </ul>
         </Navbar>
     )

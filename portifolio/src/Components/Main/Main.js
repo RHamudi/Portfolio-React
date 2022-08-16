@@ -2,7 +2,6 @@ import {Container,MainC,Bold, Button} from './MainStyled'
 import {FiArrowRight} from 'react-icons/fi'
 import About from '../About/About'
 import { Link } from 'react-router-dom'
-import Footer from '../Footer/Footer'
 
 function Main(){
     return (
@@ -21,7 +20,6 @@ function Main(){
         </MainC>
         <About />
         </Container>
-        <Footer />
       </>
     )
 }
