@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 function Main(){
     return (
         <>
-        <Container>
+        <Container className='animeLeft'>
         <MainC>
             <div>
                 <img src='https://via.placeholder.com/150' alt='placeholder'/>
