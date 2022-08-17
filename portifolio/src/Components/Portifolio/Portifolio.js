@@ -4,8 +4,8 @@ import { Container, H1 } from "./PortifolioStyled";
 function Portifolio() {
   return (
     <>
-      <H1>Projetos</H1>
-      <Container>
+      <H1 className="animeLeft">Projetos</H1>
+      <Container className="animeLeft">
         <Cards
           title="Rede social Dogs"
           src="https://via.placeholder.com/200"

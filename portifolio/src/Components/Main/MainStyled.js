@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-    padding-top: 100px;
+    padding-top: 1rem;
+    margin-bottom: 0.8rem;
 `;
 
 export const MainC = styled.section`
@@ -16,6 +17,8 @@ export const MainC = styled.section`
 
         img {
             margin-right: 4rem;
+            height: 20rem;
+            border-radius: 50%;
         }
 
         p {
