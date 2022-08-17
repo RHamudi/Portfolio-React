@@ -1,21 +1,44 @@
-import { Section } from "./AboutStyled";
+import { Section, ImgMain, DivMain } from "./AboutStyled";
 
 function About() {
   return (
     <Section>
-      <div>
-        <h1>Ramon Ramos</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          vitae efficitur ipsum. Phasellus sed quam eu ex ultrices rutrum.
-          Praesent vestibulum erat ut tristique feugiat. Phasellus non aliquam
-          risus. Cras turpis lacus, faucibus nec ultricies consectetur, dictum
-          et velit. Proin fermentum aliquet velit nec mollis. Maecenas cursus
-          purus eu sollicitudin condimentum. Sed sit amet est at nisl semper
-          laoreet quis sit amet justo. Proin mi felis, vehicula at faucibus
-          quis, blandit vel quam.
-        </p>
-      </div>
+      <DivMain>
+        <h3>Tecnologias</h3>
+        <ImgMain>
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+            alt="HTML5"
+          />
+
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+            alt="CSS3"
+          />
+
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+            alt="JavaScript"
+          />
+
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+            alt="ReactJS"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+            alt="MySQL"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+            alt="GIT"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+            alt="GitHub"
+          />
+        </ImgMain>
+      </DivMain>
     </Section>
   );
 }
