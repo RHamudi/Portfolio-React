@@ -11,6 +11,14 @@ export const MainC = styled.section`
     align-items: center;
     padding-bottom: 1rem;
 
+    @media (max-width: 40rem) {
+            flex-direction: column;
+            img {
+                margin: auto;
+                margin-right: 0px !important;
+            }
+    }
+
     div {
         padding: 5px;
         color: white;
@@ -24,6 +32,8 @@ export const MainC = styled.section`
         p {
             font-size: 2rem;
         }
+
+        
     }
 `;
 
